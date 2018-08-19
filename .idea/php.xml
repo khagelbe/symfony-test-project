@@ -77,6 +77,11 @@
       <path value="$PROJECT_DIR$/vendor/qandidate/symfony-json-request-transformer" />
     </include_path>
   </component>
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter home="$USER_HOME$/Library/Caches/PhpStorm2018.2/plugins/idea-php-latest-plugin/php-v7.2.8/php.sh" id="6f6f3c86-92cb-481d-8204-eff20008a222" name="PHP latest" debugger_id="php.debugger.XDebug" />
+    </interpreters>
+  </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
   <component name="PhpUnit">
     <phpunit_settings>

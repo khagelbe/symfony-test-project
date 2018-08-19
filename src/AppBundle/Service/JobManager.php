@@ -1,5 +1,4 @@
 <?php
-// src/AppBundle/Service/JobManager.php
 namespace AppBundle\Service;
 
 use AppBundle\Entity\Category;
