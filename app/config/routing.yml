@@ -1,0 +1,24 @@
+app_get_categories:
+  path: /job/list-categories
+  defaults:  { _controller: AppBundle:Category:list, _format: json }
+  methods:   [GET]
+
+app_post_job:
+  path: /job/create
+  defaults:  { _controller: AppBundle:Job:create, _format: json }
+  methods:   [POST]
+
+app_get_jobs:
+  path: /job/list/{category}
+  defaults:  { _controller: AppBundle:Job:list, _format: json }
+  methods:   [GET]
+
+app_update_job:
+  path: /job/update/{job}
+  defaults:  { _controller: AppBundle:Job:update, _format: json }
+  methods:   [PUT]
+
+app_delete_job:
+  path: /job/delete/{job}
+  defaults:  { _controller: AppBundle:Job:delete, _format: json }
+  methods:   [DELETE]
